@@ -90,10 +90,16 @@ export const Header = ({ className }: Props) => {
         </div>
 
         <div className="flex flex-wrap items-center gap-2">
-          <Button variant="github" size="sm">
-            <FaGithub />
-            Github
-          </Button>
+          <a
+            href="https://github.com/0xkaize/kaize-gas"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="github" size="sm">
+              <FaGithub />
+              Github
+            </Button>
+          </a>
           <a
             href="https://x.com/0x_kaize"
             target="_blank"
