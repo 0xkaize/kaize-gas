@@ -14,7 +14,7 @@ export const SideHeader = ({ globalVisible, toggleAll }: Props) => {
       <div className="inline-flex items-center gap-3 text-xl font-semibold">
         <Avatar className="w-10 h-10">
           <AvatarImage
-            src="https://pbs.twimg.com/profile_images/1967143269285888000/v-1qYWiW_400x400.jpg"
+            src="https://pbs.twimg.com/profile_images/1967343875493711872/6gS-odnN_400x400.jpg"
             draggable={false}
           />
           <AvatarFallback>CN</AvatarFallback>
